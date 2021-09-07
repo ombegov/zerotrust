@@ -20,9 +20,9 @@ var closestHeader;
 // and update the corresponding sidenav link to be styled as current.
 function calculateCurrentHeader(event) {
 
-  // This number is where we'll call the "top" - anything above that is active
-  var pageTop = 200;
-  var closestHeaderTop = -9999;
+  // flip what's current as it crosses the middle of the window
+  var pageTop = window.innerHeight / 2;
+  var closestHeaderTop = -9999; // negative infinity
   // default to topmost header (even if it starts below)
   var currentClosest = headers[0];
 
