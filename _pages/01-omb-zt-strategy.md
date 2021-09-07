@@ -17,7 +17,7 @@ Keep reading below, or **[download the Federal Zero Trust Strategy as a PDF](/do
 
 OMB welcomes feedback from the public on how this strategy can be improved to better strengthen the U.S. government's cybersecurity.
 
-OMB is accepting public comment on these documents through **September 21, 2021.** To submit a comment, send it by email to [zerotrust@omb.eop.gov](mailto:zerotrust@omb.eop.gov?subject=[Public%20comment]%20).
+OMB is accepting public comment on the Federal Zero Trust Strategy through **September 21, 2021.** To submit a comment, send it by email to [zerotrust@omb.eop.gov](mailto:zerotrust@omb.eop.gov?subject=[Public%20comment]%20).
 
 
 ## Overview
