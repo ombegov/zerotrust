@@ -2,7 +2,7 @@
 title: Moving the U.S. Government Towards Zero Trust Cybersecurity Principles
 email: zerotrust@omb.eop.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  The Office of Management and Budget (OMB) is releasing a draft Federal Zero Trust Strategy in support of Executive Order 14028, “Improving the Nation’s Cybersecurity”, to adapt civilian agencies’ enterprise security architecture to be based on zero trust principles.
+  Read and comment on the U.S. government's draft Federal Zero Trust Strategy. This strategy is intended to accelerate federal agencies towards a shared baseline of early zero trust maturity.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Twitter handle. Only the handle, not the URL.
@@ -59,5 +59,7 @@ exclude:
   - Gemfile.lock
   - todo.txt
 
+# My apologies for this hack - I converted this from a Federalist-oriented
+# build system to a GitHub Pages-oriented build system.
 sass:
   sass_dir: assets/uswds/scss
