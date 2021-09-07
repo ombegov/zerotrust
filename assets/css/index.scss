@@ -13,20 +13,39 @@ $theme-h3-font-size: sm;
 @import "uswds";
 
 
-/** hackkkkk **/
+/** ugly hack **/
 .usa-banner__button::after {
   background: url("../img/usa-icons/expand_more.svg") no-repeat center / 1rem 1rem !important;
 }
+.usa-banner__header-action::after {
+  background: url("../img/usa-icons/expand_more.svg") no-repeat center / 1rem 1rem !important;
+}
 
+/** use filled dots, not hollow dots -- this is important **/
 ol ul {list-style-type: disc !important}
 
+/** Have page content headers closer to the horizontal nav menu **/
 @media screen and (min-width: 40em) {
   #main-content.usa-section {
     padding-top: 1.5rem;
   }
 }
 
+/** allow site title to stretch wider **/
 #extended-logo {max-width: 70%}
+
+
+
+/** On mobile -- **/
+@media (max-width: 63.99em) {
+  /** site title line height should be bigger **/
+  .usa-logo {line-height: 1.2}
+
+  /** menu button should be all the way right **/
+  .usa-navbar {justify-content: space-between}
+}
+
+
 
 /** webkit seems to default to an underline on the link on the agency logos **/
 footer .logo-links a {text-decoration: none}
