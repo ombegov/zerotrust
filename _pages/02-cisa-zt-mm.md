@@ -13,7 +13,7 @@ To help this effort, the [Cybersecurity and Infrastructure Security Agency](http
 
 **[Download the Zero Trust Maturity Model here](https://cisa.gov/publication/zero-trust-maturity-model)**.
 
-Read more in [CISA's blog post announcing the Zero Trust Maturity Model](#).
+<!-- Read more in [CISA's blog post announcing the Zero Trust Maturity Model](#). -->
 
 ## How to comment
 
