@@ -17,3 +17,14 @@ The Federal Zero Trust Strategy is rendered in full web format in this website. 
 OMB is accepting public comment on the Federal Zero Trust Strategy through **September 21, 2021**. To submit a comment, send it by email to **[zerotrust@omb.eop.gov](mailto:zerotrust@omb.eop.gov?subject=[Public%20comment]%20)**.
 
 CISA is accepting public comment on the Zero Trust Maturity Model and the Cloud TRA through **October 1, 2021**. To submit a comment on either document, send it by email to **[tic@cisa.dhs.gov](mailto:tic@cisa.dhs.gov)**.
+
+## About the website
+
+From here on out are **technical details about the website itself**, not the substance of the policy documents and reference material herein.
+
+This website would not be possible without the **[U.S. Web Design System](https://designsystem.digital.gov)**, which made it easy and fast to get a simple and clean website going.
+
+This repository was originally copied from the [`18f/federalist-uswds-jekyll`](https://github.com/18F/federalist-uswds-jekyll) template, which is optimized for [Jekyll](https://jekyllrb.com) sites that use the U.S. Web Design System and run on [Federalist](https://federalist.18f.gov) (a Jekyll-based static site host for government services).
+
+For anyone analyzing this site as a potential role model: this site is currently hosted on GitHub Pages, and so plugins which work on Federalist but do not work on GitHub Pages were removed from the project. This necessitated a kludgey overhaul of the asset pipeline and some duplication of assets.
+
