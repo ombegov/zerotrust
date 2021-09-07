@@ -21,6 +21,12 @@ $theme-h3-font-size: sm;
   background: url("../img/usa-icons/expand_more.svg") no-repeat center / 1rem 1rem !important;
 }
 
+/** make the reverse footnote links not underlined by default, to avoid
+    a particularly ugly look on Safari on mobile **/
+a.reversefootnote {text-decoration: none;}
+a.reversefootnote:hover {text-decoration: underline;}
+
+
 /** use filled dots, not hollow dots -- this is important **/
 ol ul {list-style-type: disc !important}
 
