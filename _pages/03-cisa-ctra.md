@@ -15,7 +15,7 @@ As the federal government continues to transition to the cloud, this TA will be 
 
 Read more in [CISA's blog post announcing the Cloud Security TRA](#).
 
-### How to comment
+## How to comment
 
 The TRA comment period will run from September 7, 2021 to **October 1, 2021**. CISA encourages readers to provide any comments, feedback, or questions they may have. Reviewers can submit their feedback to **[tic@cisa.dhs.gov](mailto:tic@cisa.dhs.gov)**.
 

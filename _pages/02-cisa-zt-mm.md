@@ -15,7 +15,7 @@ To help this effort, the [Cybersecurity and Infrastructure Security Agency](http
 
 Read more in [CISA's blog post announcing the Zero Trust Maturity Model](#).
 
-### How to comment
+## How to comment
 
 CISA is holding a public comment period on the Zero Trust Maturity Model from September 7, 2021 until **October 1, 2021**. During that time, reviewers can submit their comments and feedback to **[tic@cisa.dhs.gov](mailto:example@cisa.gov)**.
 

@@ -13,7 +13,7 @@ The goal of this strategy is to accelerate agencies towards a **shared baseline 
 
 Keep reading below, or **[download the Federal Zero Trust Strategy as a PDF](/downloads/Office of Management and Budget - Federal Zero Trust Strategy - DRAFT For Public Comment - 2021-09-07.pdf)**.
 
-### How to comment
+## How to comment
 
 OMB welcomes feedback from the public on how this strategy can be improved to better strengthen the U.S. government's cybersecurity.
 
