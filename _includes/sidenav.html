@@ -1,0 +1,41 @@
+
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4 sidenav sticky">
+  <nav>
+    <ul class="usa-sidenav">
+
+      {% for item in site.data.sidenav %}
+        {% assign current = '' %}
+        {% if page.url == item.url %}
+          {% assign current = 'usa-current' %}
+        {% endif %}
+
+        <li class="usa-sidenav__item">
+          {% if item.url %}
+            <a href="{{ site.baseurl }}{{ item.url }}" class="{{ current }}">{{ item.text }}</a>
+          {% else %}
+            <a><strong>{{ item.text }}</strong></a>
+          {% endif %}
+
+          {% if item.sub_nav[0] %}
+            <ul class="usa-sidenav__sublist">
+              {% for sub_item in item.sub_nav %}
+                {% assign subcurrent = '' %}
+                {% if page.url == sub_item.url %}
+                  {% assign subcurrent = 'usa-current' %}
+                {% endif %}
+
+                <li class="usa-sidenav__item">
+                  <a class="{{ subcurrent }}" href="{{ site.baseurl }}{{ sub_item.url }}">{{ sub_item.text }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+        </li>
+
+
+      {% endfor %}
+
+    </ul>
+  </nav>
+</aside>

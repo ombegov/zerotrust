@@ -1,0 +1,63 @@
+
+title: Moving the U.S. Government Towards Zero Trust Cybersecurity Principles
+email: zerotrust@omb.eop.gov
+description: >- # this means to ignore newlines until "baseurl:"
+  The Office of Management and Budget (OMB) is releasing a draft Federal Zero Trust Strategy in support of Executive Order 14028, “Improving the Nation’s Cybersecurity”, to adapt civilian agencies’ enterprise security architecture to be based on zero trust principles.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Twitter handle. Only the handle, not the URL.
+twitter: OMBPress
+
+dap:
+  agency: EOP
+  subagency: OMB
+
+# Site Navigation
+primary_navigation:
+  - name: Home
+    url: /
+  - name: Federal Zero Trust Strategy
+    url: /federal-zero-trust-strategy/
+  - name: Zero Trust Maturity Model
+    url: /zero-trust-maturity-model/
+  - name: Cloud Security Technical Reference Architecture
+    url: /cloud-security-technical-reference-architecture/
+
+
+secondary_navigation:
+  - name: Executive Order 14028
+    url: "https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/"
+  - name: WhiteHouse.gov
+    url: "https://www.whitehouse.gov"
+
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+permalink: pretty
+
+# markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap # See additional instructions for url parameter above.
+  - jekyll-seo-tag
+
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - todo.txt
+
+sass:
+  sass_dir: assets/uswds/scss
