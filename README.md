@@ -26,5 +26,5 @@ This website would not be possible without the **[U.S. Web Design System](https:
 
 This repository was originally copied from the [`18f/federalist-uswds-jekyll`](https://github.com/18F/federalist-uswds-jekyll) template, which is optimized for [Jekyll](https://jekyllrb.com) sites that use the U.S. Web Design System and run on [Federalist](https://federalist.18f.gov) (a Jekyll-based static site host for government services).
 
-For anyone analyzing this site as a potential role model: this site is currently hosted on GitHub Pages, and so plugins which work on Federalist but do not work on GitHub Pages were removed from the project. This necessitated a kludgey overhaul of the asset pipeline and some duplication of assets.
+For anyone looking to base their site on this repo: this site is currently hosted on GitHub Pages, and so plugins which work on Federalist but do not work on GitHub Pages were removed from the project. This necessitated a kludgey overhaul of the asset pipeline and some duplication of assets, which is not a recommended model for future work.
 
