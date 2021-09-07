@@ -75,7 +75,7 @@ put all Federal agencies on a common roadmap by laying out the initial
 steps agencies must take to enable their journey toward a highly mature
 zero trust architecture. This recognizes that each agency is currently
 at a different state of maturity, and ensures flexibility and agility
-for implementing required actions over a defined time horizon.The
+for implementing required actions over a defined time horizon. The
 strategy also seeks to achieve efficiencies for common needs by calling
 for government-wide shared services, where relevant.
 
