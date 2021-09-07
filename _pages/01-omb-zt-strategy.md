@@ -1033,7 +1033,7 @@ agencies are expected to implement log integrity measures to limit
 access and allow cryptographic verification, and to log DNS requests
 made throughout their environment.
 
-### References
+## References
 
 The Federal Government has been preparing for the transition to a zero
 trust architecture for some time. Several agencies have published
