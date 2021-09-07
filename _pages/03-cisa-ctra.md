@@ -13,7 +13,7 @@ As the federal government continues to transition to the cloud, this TA will be 
 
 **[Download the Cloud Security TRA here](https://cisa.gov/publication/cloud-security-technical-reference-architecture).**
 
-Read more in [CISA's blog post announcing the Cloud Security TRA](#).
+<!-- Read more in [CISA's blog post announcing the Cloud Security TRA](#). -->
 
 ## How to comment
 
