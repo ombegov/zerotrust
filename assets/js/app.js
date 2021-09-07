@@ -21,16 +21,26 @@ var closestHeader;
 function calculateCurrentHeader(event) {
 
   // flip what's current as it crosses the middle of the window
-  var pageTop = window.innerHeight / 2;
-  var closestHeaderTop = -9999; // negative infinity
+  var pageFold = window.innerHeight / 2;
+  var firstVisibleAboveFold;
   // default to topmost header (even if it starts below)
   var currentClosest = headers[0];
 
   headers.forEach(function(header) {
+    // if we found one visible, no matter how high, just stop;
+    if (firstVisibleAboveFold) return;
+
     var top = header.getBoundingClientRect().top;
-    if (top > closestHeaderTop && top < pageTop)
-      currentClosest = header;
+    if ((top > 0) && (top < pageFold)) {
+      firstVisibleAboveFold = header;
+      return;
+    }
+
+    if (top < pageFold) currentClosest = header;
   });
+
+  // the topmost one above the fold wins no matter what
+  if (firstVisibleAboveFold) currentClosest = firstVisibleAboveFold;
 
 
   if (closestHeader != currentClosest) {
