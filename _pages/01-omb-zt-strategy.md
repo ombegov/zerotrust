@@ -7,11 +7,11 @@ permalink: /federal-zero-trust-strategy/
 
 # Federal Zero Trust Strategy
 
-In January 2022, the [Office of Management and Budget](https://www.whitehouse.gov/omb/) (OMB) released the below Federal Zero Trust Strategy in support of [Executive Order 14028, "Improving the Nation's Cybersecurity"](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/), to adapt civilian agencies' enterprise security architecture to be based on zero trust principles.
+On January 26, 2022, the [Office of Management and Budget](https://www.whitehouse.gov/omb/) (OMB) released the below Federal Zero Trust Strategy in support of [Executive Order 14028, "Improving the Nation's Cybersecurity"](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/), to adapt civilian agencies' enterprise security architecture to be based on zero trust principles.
 
 The Federal Zero Trust Strategy is published as _[OMB Memorandum M-22-09, "Moving the U.S. Government Toward Zero Trust Cybersecurity Principles"](/downloads/M-22-09 Federal Zero Trust Strategy.pdf)_.
 
-The goal of this strategy is to accelerate agencies towards a **shared baseline of early zero trust maturity**. Moving to a zero trust architecture will be a multi-year journey for agencies, and the federal government will learn and adjust as new technologies and practices emerge.
+The goal of this strategy is to accelerate agencies toward a **shared baseline of early zero trust maturity**. Moving to a zero trust architecture will be a multi-year journey for agencies, and the federal government will learn and adjust as new technologies and practices emerge.
 
 This strategy was first published in draft form in September 2021 with a [request for public comment](https://www.federalregister.gov/documents/2021/09/08/2021-19303/request-for-comments-on-zero-trust-strategy-document). Thank you to the many commenters, whose technical advice and insight significantly strengthened the final product.
 
@@ -1255,8 +1255,7 @@ authenticators in their enterprise identity management systems, so that
 these authenticators are centrally managed and connected to enterprise
 identities.
 
-### 3. OMB M-19-26 and OMB M-21-31 -- Alternatives to network
-    inspection
+### 3. OMB M-19-26 and OMB M-21-31 -- Alternatives to network inspection
 
 Current OMB policies neither require nor prohibit inline decryption of
 enterprise network traffic. Agencies are expected to balance the depth
@@ -1300,6 +1299,42 @@ Because this memorandum also requires that agencies preload their .gov
 domains in web browsers, agencies are expected to satisfy the HSTS
 requirements of M-15-13 through preloading, rather than applying
 distinct HSTS policies to individual services.
+
+## Appendix A: References
+
+The Federal Government has been preparing for the transition to a zero
+trust architecture for some time. Several agencies have published
+architectural models that can be helpful to other agencies:
+
+-   **[CISA's Zero Trust Maturity Model](https://www.cisa.gov/publication/zero-trust-maturity-model)** is a high-level overview of
+    zero trust "pillars" that shows how agencies may progress to
+    "Advanced" and "Optimal" states and describes how CISA
+    service-offerings align to these pillars.
+
+-   **[CISA's Cloud Security Technical Reference Architecture](https://www.cisa.gov/publication/cloud-security-technical-reference-architecture)**,
+    co-authored with the United States Digital Service and FedRAMP,
+    provides a more granular reference for secure cloud architectures
+    and migration strategies.
+
+-   **[NIST's SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)** provides a consensus
+    definition and framework for the key tenets of zero trust
+    architecture, while describing several different approaches to zero
+    trust architecture that organizations with different risk postures
+    and skillsets can adopt.
+
+-   The NIST National Cybersecurity Center of Excellence (NCCoE) has
+    initiated **[Implementing a Zero Trust Architecture](https://www.nccoe.nist.gov/projects/building-blocks/zero-trust-architecture)**, a
+    collaboration with industry partners to apply the concepts in NIST
+    SP 800-207 to a conventional enterprise architecture.
+
+-   **[GSA's Zero Trust Architecture Buyer's Guide](https://www.gsa.gov/cdnstatic/Zero%20Trust%20Architecture%20Buyers%20Guide%20v11%2020210610%20(2).pdf)** can help agencies
+    identify GSA contract vehicles that offer products and services
+    relevant to agency zero trust implementations.
+
+-   **[The Department of Defense's Zero Trust Reference Architecture](https://dodcio.defense.gov/Portals/0/Documents/Library/(U)ZT_RA_v1.1(U)_Mar21.pdf)**
+    comprehensively describes potential security features and
+    architectural controls that the Department plans to execute across
+    its systems.
 
 ### Appendix B: Task Matrix
 

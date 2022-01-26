@@ -1,8 +1,8 @@
 
-title: Moving the U.S. Government Towards Zero Trust Cybersecurity Principles
+title: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles
 email: zerotrust@omb.eop.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Read and comment on the U.S. government's draft Federal Zero Trust Strategy. This strategy is intended to accelerate federal agencies towards a shared baseline of early zero trust maturity.
+  Read the U.S. government's Federal Zero Trust Strategy. This strategy is designed to accelerate federal agencies toward a shared baseline of early zero trust maturity.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Twitter handle. Only the handle, not the URL.
