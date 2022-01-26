@@ -1300,7 +1300,7 @@ domains in web browsers, agencies are expected to satisfy the HSTS
 requirements of M-15-13 through preloading, rather than applying
 distinct HSTS policies to individual services.
 
-## Appendix A: References
+## References
 
 The Federal Government has been preparing for the transition to a zero
 trust architecture for some time. Several agencies have published
@@ -1336,9 +1336,9 @@ architectural models that can be helpful to other agencies:
     architectural controls that the Department plans to execute across
     its systems.
 
-### Appendix B: Task Matrix
+### Task Matrix
 
-To view the task matrix in Appendix B, please use [the PDF version of this memo](/downloads/M-22-09 Federal Zero Trust Strategy.pdf).
+To view the agency task matrix, please use [the PDF version of this memo](/downloads/M-22-09 Federal Zero Trust Strategy.pdf).
 
 
 
