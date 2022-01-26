@@ -7,3 +7,4 @@ node_modules
 
 /todo.txt
 .~lock*
+/downloads/fzts.*

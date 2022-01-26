@@ -6,7 +6,11 @@ layout: base
   <div class="grid-container">
     <div class="grid-row grid-gap">
       {% if page.sidenav == true %}
-      {% include sidenav.html %}
+        {% if page.draft == true %}
+        {% include sidenav_draft.html %}
+        {% else %}
+        {% include sidenav.html %}
+        {% endif %}
       {% endif %}
       <main>
         <div class="usa-layout-docs__main desktop:grid-col-auto usa-prose">

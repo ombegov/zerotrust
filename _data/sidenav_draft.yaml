@@ -1,9 +1,11 @@
 
 
+- text: "How to Comment"
+  url: "#how-to-comment"
 - text: "Overview"
   url: "#overview"
-- text: "Executive Summary"
-  url: "#executive-summary"
+- text: "Purpose"
+  url: "#purpose"
 - text: "Goals"
   url: "#goals"
   sub_nav:
