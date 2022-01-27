@@ -20,6 +20,14 @@ Keep reading below, or **[download the Federal Zero Trust Strategy as a PDF](/do
 
 ## Overview
 
+This memorandum sets forth a Federal zero trust architecture (ZTA)
+strategy, requiring agencies to meet specific cybersecurity standards
+and objectives by the end of Fiscal Year (FY) 2024 in order to reinforce
+the Government's defenses against increasingly sophisticated and
+persistent threat campaigns. Those campaigns target Federal technology
+infrastructure, threatening public safety and privacy, damaging the
+American economy, and weakening trust in Government.
+
 Every day, the Federal Government executes unique and deeply challenging
 missions: agencies [^1] safeguard our nation's critical infrastructure,
 conduct scientific research, engage in diplomacy, and provide benefits
