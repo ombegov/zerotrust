@@ -1,6 +1,6 @@
 # Moving the U.S. Government Towards Zero Trust Cybersecurity Principles
 
-The [Office of Management and Budget](https://www.whitehouse.gov/omb/) (OMB) and the [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) are **seeking public feedback** on strategic and technical guidance documents meant to **move the U.S. government towards a zero trust architecture**.
+The [Office of Management and Budget](https://www.whitehouse.gov/omb/) (OMB) and the [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) have released strategic and technical guidance documents meant to **move the U.S. government towards a zero trust architecture**.
 
 This repository powers the website at https://zerotrust.cyber.gov. This website is currently oriented around 3 documents:
 
@@ -12,12 +12,6 @@ This repository powers the website at https://zerotrust.cyber.gov. This website 
 
 The Federal Zero Trust Strategy is rendered in full web format in this website. CISA's documents above currently have landing pages with public comment instructions on this site, while their actual documents are hosted on [cisa.gov](https://cisa.gov).
 
-## How to comment
-
-OMB is accepting public comment on the Federal Zero Trust Strategy through **September 21, 2021**. To submit a comment, send it by email to **[zerotrust@omb.eop.gov](mailto:zerotrust@omb.eop.gov?subject=[Public%20comment]%20)**.
-
-CISA is accepting public comment on the Zero Trust Maturity Model and the Cloud TRA through **October 1, 2021**. To submit a comment on either document, send it by email to **[tic@cisa.dhs.gov](mailto:tic@cisa.dhs.gov)**.
-
 ## About the website
 
 From here on out are **technical details about the website itself**, not the substance of the policy documents and reference material herein.
@@ -28,3 +22,10 @@ This repository was originally copied from the [`18f/federalist-uswds-jekyll`](h
 
 For anyone looking to base their site on this repo: this site is currently hosted on GitHub Pages, and so plugins which work on Federalist but do not work on GitHub Pages were removed from the project. This necessitated a kludgey overhaul of the asset pipeline and some duplication of assets, which is not a recommended model for future work.
 
+## Document conversion
+
+The Markdown in this repository was, before being hand-finalized, originally converted from its upstream Word format using the following command:
+
+```
+pandoc -t markdown -o fzts.md fzts.docx
+```
