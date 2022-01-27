@@ -9,13 +9,13 @@ permalink: /federal-zero-trust-strategy/
 
 On January 26, 2022, the [Office of Management and Budget](https://www.whitehouse.gov/omb/) (OMB) released the below Federal Zero Trust Strategy in support of [Executive Order 14028, "Improving the Nation's Cybersecurity"](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/), to adapt civilian agencies' enterprise security architecture to be based on zero trust principles.
 
-The Federal Zero Trust Strategy is published as _[OMB Memorandum M-22-09, "Moving the U.S. Government Toward Zero Trust Cybersecurity Principles"](/downloads/M-22-09 Federal Zero Trust Strategy.pdf)_.
+The Federal Zero Trust Strategy is published as _[OMB Memorandum M-22-09, "Moving the U.S. Government Toward Zero Trust Cybersecurity Principles"](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf)_.
 
 The goal of this strategy is to accelerate agencies toward a **shared baseline of early zero trust maturity**. Moving to a zero trust architecture will be a multi-year journey for agencies, and the federal government will learn and adjust as new technologies and practices emerge.
 
 This strategy was first published in draft form in September 2021 with a [request for public comment](https://www.federalregister.gov/documents/2021/09/08/2021-19303/request-for-comments-on-zero-trust-strategy-document). Thank you to the many commenters, whose technical advice and insight significantly strengthened the final product.
 
-Keep reading below, or **[download the Federal Zero Trust Strategy as a PDF](/downloads/M-22-09 Federal Zero Trust Strategy.pdf)**.
+Keep reading below, or **[download the Federal Zero Trust Strategy as a PDF](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf)**.
 
 
 ## Overview
@@ -1346,7 +1346,7 @@ architectural models that can be helpful to other agencies:
 
 ### Task Matrix
 
-To view the agency task matrix, please use [the PDF version of this memo](/downloads/M-22-09 Federal Zero Trust Strategy.pdf).
+To view the agency task matrix, please use [the PDF version of this memo](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf).
 
 
 
