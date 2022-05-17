@@ -298,7 +298,7 @@ into as many agency applications as possible. Large agencies with many
 different systems requiring user authentication will only be able to
 efficiently perform baseline operations, such as promptly disabling the
 accounts of departing employees, by consolidating authentication. Such
-consolidation is also critical if large agencies are to implement some
+consolidation is also critical if large agencies are to implement some 
 of the more sophisticated protections required by this memorandum.
 
 Enterprise identity management must be compatible with common
