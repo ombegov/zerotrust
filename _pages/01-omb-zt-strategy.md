@@ -880,7 +880,7 @@ prioritize and address vulnerabilities identified in their SAR through
 these methods.
 
 As directed by EO 14028, NIST has developed [guidelines for developer
-verification of software](https://www.nist.gov/system/files/documents/2021/07/13/Developer%20Verification%20of%20Software.pdf), which should inform agencies' strategies,
+verification of software](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933350), which should inform agencies' strategies,
 methodologies, and standard processes for application testing.
 
 ### 2. Easily available third-party testing
